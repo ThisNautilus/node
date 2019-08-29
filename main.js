@@ -1,4 +1,4 @@
-const common = require('./modules/a.js')
+const common = require('./commonjs/a.js')
 
 console.log(common.str);
-console.log(common.logStr);
+console.log(common.logStr('Dylan'));
